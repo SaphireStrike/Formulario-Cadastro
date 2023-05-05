@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.form h1 {
+    background-color: lightblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+fieldset {
+    background-color: lightpink;
+}
+#button {
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border: none;
+}
+#button:hover {
+    background-color: lightsalmon;
+}
+legend {
+    background-color: bisque;
+}
+.field_1 {
+    margin-bottom: 10px;
+}
+label a {
+    text-decoration: none;
+    color: black;
+}
+#checkbox {
+    margin-top: 10px;
+}

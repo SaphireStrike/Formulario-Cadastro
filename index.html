@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    <div class="form">
+        <h1>Cadastre-se Aqui</h1>
+        <form method="post">
+            <fieldset class="field_1">
+                <legend>Dados Pessoais</legend>
+                <label for="">
+                    Nome:<br>
+                    <input type="text" required minlength="2" placeholder="Nome">
+                </label><br>
+                <label for="">
+                    Sobrenome:<br>
+                    <input type="text" name="lastname" placeholder="Sobrenome">
+                </label><br>
+                <label for="">
+                    Data de Nascimento:<br>
+                    <input type="date" name="birthday" required>
+                </label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Informações de Contato:</legend>
+                <label for="">
+                    Email:<br>
+                    <input type="email" name="email" required placeholder="Email">
+                </label><br>
+                <label for="">
+                    Telefone:<br>
+                    <input type="tel" name="phonenumber" required placeholder="(00) 0000-0000">
+                </label><br>
+                <label for="">
+                    CEP:<br>
+                    <input type="number" name="cep" required placeholder="00000-000">
+                </label><br>
+            </fieldset>
+            <label>
+                <input type="checkbox" name="agree" id="checkbox">
+                Eu li e concordo com os <a href="">Termos de Uso</a>
+            </label><br>
+            <input type="submit" value="Cadastrar" id="button">
+        </form>
+    </div>
+</body>
+</html>
